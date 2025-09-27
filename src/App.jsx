@@ -14,6 +14,7 @@ export default function App() {
   return (
     <div className="site">
       <div className="back-wave" />
+      <div className="back-spiral" />
       <Header />
       <main className="main">
         <Routes>

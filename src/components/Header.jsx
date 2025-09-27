@@ -14,8 +14,8 @@ export default function Header() {
     <header className="header">
       <div className="container header-inner">
         <Link to="/" className="brand">
-          <span className="brand-dot" />
-          <span>INFOET</span>
+          {/* <span className="brand-dot" /> */}
+          <span>TrueCove AI</span>
         </Link>
 
         <nav className="nav">

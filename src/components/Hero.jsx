@@ -1,4 +1,4 @@
-import Spiral from "./Spiral.jsx";
+import SpiralImg from "../../src/assets/Looper.svg";
 
 export default function Hero() {
   return (
@@ -16,7 +16,11 @@ export default function Hero() {
           <button className="cta">Our Services</button>
         </div>
         <div style={{ display: "grid", placeItems: "center" }}>
-          <Spiral />
+          <img
+            src={SpiralImg}
+            alt="Decorative Spiral"
+            style={{ width: "300px", height: "auto", opacity: 0.5 }}
+          />
         </div>
       </div>
     </section>
